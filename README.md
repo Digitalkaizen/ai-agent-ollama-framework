@@ -16,19 +16,7 @@ This project focuses on understanding and implementing modern AI agent architect
 
 The agent follows a structured decision loop:
 
-User Input
-↓
-Agent (intent detection + policy enforcement)
-↓
-LLM (Ollama local model)
-↓
-JSON command (tool call or final answer)
-↓
-Tool execution (deterministic)
-↓
-Observation back to LLM
-↓
-Final answer
+User Input - Agent (intent detection + policy enforcement) - LLM (Ollama local model) - JSON command (tool call or final answer) - Tool execution (deterministic) - Observation back to LLM - Final answer
 
 
 Core components:
